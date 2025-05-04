@@ -1,0 +1,3 @@
+-r ../../requirements.in    # inherit all common deps
+
+urllib3
