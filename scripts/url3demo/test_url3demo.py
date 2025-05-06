@@ -1,5 +1,5 @@
 import urllib3
-from url3_demo import get, get_status, get_data
+from url3demo import get, get_status, get_data
 
 def test_get_status():
     resp = get('GET', 'https://httpbin.org/robots.txt')

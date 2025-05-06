@@ -111,3 +111,12 @@ From root:
 chmod +x ./sync-reqs.sh
 ./sync-reqs.sh
 ```
+
+## Production deployment
+
+After running `./comp-reqs.sh` and `./sync-reqs.sh` deploy individual scripts to production like this:
+
+```bash
+chmod +x "./deploy.sh"
+./deploy.sh script_a
+```

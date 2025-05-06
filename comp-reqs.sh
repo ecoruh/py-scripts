@@ -1,5 +1,4 @@
-#!/bin/zsh
-
+#!/usr/bin/env zsh
 set -e
 
 # Navigate to the script's root directory
